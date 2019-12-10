@@ -21,6 +21,7 @@
    <link href="cp_styles.css" rel="stylesheet" />
    <link href="cp_media.css" rel="stylesheet" />
    <link href="cp_animate.css" rel="stylesheet" />
+   <script src="cp_spin.js"></script>
   
 </head>
 
@@ -122,8 +123,13 @@
             illusion of weightlessness.
          </p>    
 
-         <p>Click the play button to view this classic dance sequence</p>
-         <video controls poster="Ceasar.png">
+         <p>Click the play button to view this classic dance sequence.
+            to see the dance as it appeared on the movie set, go to the start of the clip and click &#8635; to rotate and play the video.
+            click 
+         </p>
+         <input type="checkbox" id="rotateVideo">
+         <label for="rotateVideo"></label>
+         <video controls poster="cp_photo2.png">
             <source src="cp_dance.mp4" type="video/mp4"/>
             <source src="cp_dance.webm" type="video/webm" />
             <track kind="captions" label="Danc Captions" src="cp_captions.vtt" default/>
